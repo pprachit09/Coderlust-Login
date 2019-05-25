@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coderlust</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/homepage.js"></script>
+</head>
+<body>
+    <!--Top Bar-->
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: whitesmoke;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 25px">Coderlust</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Logs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Side Bar-->
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Features</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li><a href="#" style="color: whitesmoke" onclick="content1()">Drupal</a></li>
+                <li><a href="#" style="color: whitesmoke" onclick="content2()">Cloudflare</a></li>
+                <li><a href="#" style="color: whitesmoke" onclick="content3()">Data management</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="container" id="main-content">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Please fill out the details to start the task</h4>
+                <div id="input-form">
+                    <form>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>Select your option</option>
+                                <option>Option A</option>
+                                <option>Option B</option>
+                                <option>Option C</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Input 1</label>
+                            <input type="text" class="form-control" placeholder="something" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label>Input 2</label>
+                            <input type="password" class="form-control" placeholder="something" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="main-content2">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Please fill out the details to start the task</h4>
+                <h6>For report details please <a href="#">click here</a></h6>
+                <div id="input-form">
+                    <form>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>Select your option</option>
+                                <option>Option A</option>
+                                <option>Option B</option>
+                                <option>Option C</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Input 1</label>
+                            <input type="text" class="form-control" placeholder="something" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label>Input 2</label>
+                            <input type="password" class="form-control" placeholder="something" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="main-content3">
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#">Data 1</a></li>
+                    <li class="list-group-item"><a href="#">Data 2</a></li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>

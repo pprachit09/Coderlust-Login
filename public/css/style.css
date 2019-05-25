@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 150px;
+    position: fixed;
+    top: auto;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #dc534d;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#main-content, #main-content2, #main-content3{
+    margin-left: 20%;
+    margin-top: 5%;
+    display: none
+}
